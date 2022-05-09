@@ -21,7 +21,11 @@ class App extends Component {
 
     componentDidMount() {
         const text = localStorage.getItem('text')
-        this.setState({text})
+        if (text){
+            this.setState({text})
+        } else {
+            this.setState({text: sampleText})
+        }
 
     }
 
