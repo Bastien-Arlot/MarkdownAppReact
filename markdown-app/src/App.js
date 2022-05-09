@@ -15,8 +15,19 @@ class App extends Component {
 
     renderText = (text) => {
         const __html = marked(text, {sanitize: true})
-        return { __html}
+        return {__html}
 
+    }
+
+    componentDidMount() {
+        const text = localStorage.getItem('text')
+        this.setState({text})
+
+    }
+
+    componentDidUpdate() {
+        const {text} = this.state
+        localStorage.setItem('text', text)
     }
 
 
