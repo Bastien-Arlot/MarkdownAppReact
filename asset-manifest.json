@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MardownAppReact/static/css/main.21521c91.css",
+    "main.js": "/MardownAppReact/static/js/main.783771bf.js",
+    "static/js/787.13b9c3ac.chunk.js": "/MardownAppReact/static/js/787.13b9c3ac.chunk.js",
+    "index.html": "/MardownAppReact/index.html",
+    "main.21521c91.css.map": "/MardownAppReact/static/css/main.21521c91.css.map",
+    "main.783771bf.js.map": "/MardownAppReact/static/js/main.783771bf.js.map",
+    "787.13b9c3ac.chunk.js.map": "/MardownAppReact/static/js/787.13b9c3ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21521c91.css",
+    "static/js/main.783771bf.js"
+  ]
+}
